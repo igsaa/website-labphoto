@@ -133,3 +133,31 @@ body {
 .btn3 {
   margin-top: 2em;
 }
+
+/* Section Four */
+
+.container-four {
+  padding-top: 100px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F6F8;
+}
+
+.container-text-four {
+  width: 30%;
+}
+
+.text-four-title {
+  font-size: 30px;
+  text-align: center
+}
+
+.text-four-description {
+  padding: 0 31%;
+  text-align: center;
+}
+
+.truck-image {
+  margin-right: 50px;
+}
