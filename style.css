@@ -161,3 +161,61 @@ body {
 .truck-image {
   margin-right: 50px;
 }
+
+/* Section Five */
+
+.container-five {
+  background-image: url("assets/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 789px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-five {
+  height: fit-content;
+}
+
+.text-five-title {
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+  color: white;
+}
+
+.form-input {
+  width: fit-content;
+  padding-left: 20%;
+}
+
+/* Section Six */
+
+.container-six {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F6F8;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-six-description {
+  text-align: center;
+  font-size: x-large;
+}
+
+.text-six-title {
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+}
+
+/* Section Seven */
+
+.container-seven {
+  padding-left: 10%;
+  font-size: x-large;
+}
