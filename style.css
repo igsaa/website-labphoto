@@ -24,19 +24,7 @@ body {
 .lkn1 {
   color: white;
   text-decoration: none;
-  padding: 0px 40px;
-}
-
-.lkn2 {
-  padding: 0px 40px;
-}
-
-.lkn3 {
-  padding: 0px 40px;
-}
-
-.lkn4{
-  padding: 0px 40px;
+  margin: 0px 40px;
 }
 
 .container-text-one {
@@ -189,7 +177,30 @@ body {
 .form-input {
   width: fit-content;
   padding-left: 20%;
+  padding-top: 20px;
 }
+
+.input-mail {
+height: 50px;
+border-style: none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.input-mail::placeholder{
+  font-family: 'Darker Grotesque';
+  font-size: large;
+  font-weight: bolder
+}
+
+.btn-mail {
+  float: right;
+  width: 60px;
+  height: 52px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 
 /* Section Six */
 
@@ -213,9 +224,20 @@ body {
   margin: 0;
 }
 
+.btn-app {
+  margin-top: 45px;
+  margin-right: 110px;
+}
+
 /* Section Seven */
 
 .container-seven {
+  height: 100px;
   padding-left: 10%;
   font-size: x-large;
+}
+
+.lkn2 {
+  color: black;
+  text-decoration: none; 
 }
